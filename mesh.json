@@ -5,18 +5,7 @@
         "name": "Commerce",
         "handler": {
           "graphql": {
-            "endpoint": "https://na1-sandbox.api.commerce.adobe.com/UPZAQ7XCaXkDzt76o4yD3a/graphql",
-            "operationHeaders": {
-              "Content-Type": "application/json",
-              "Magento-Environment-Id": "<tenant-id>",
-              "Magento-Website-Code": "<website-code>",
-              "Magento-Store-Code": "<store-code>",
-              "Magento-Store-View-Code": "<store-view-code>",
-              "Magento-Customer-Group": "<customer-group-code>"
-            },
-            "schemaHeaders": {
-              "Magento-Environment-Id": "<tenant-id>"
-            }
+            "endpoint": "https://na1-sandbox.api.commerce.adobe.com/UPZAQ7XCaXkDzt76o4yD3a/graphql"
           }
         }
       },
@@ -39,8 +28,3 @@
     ]
   }
 }
-curl -X POST "https://edge-sandbox-graph.adobe.io/api/633ff878-0549-470e-ac55-c77806f17080/graphql" \
--H "Content-Type: application/json" \
--d '{
-"query": "{ Enrichment _getProductEnrichment(sku: \"HDP-1001\") { sku name sustainabilityScore estimatedDelivery enrichedAt } }"
-}'

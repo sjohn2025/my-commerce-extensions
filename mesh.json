@@ -10,8 +10,8 @@
               "Content-Type": "application/json",
               "Magento-Environment-Id": "UPZAQ7XCaXkDzt76o4yD3a",
               "Magento-Website-Code": "base",
-              "Magento-Store-Code": "default",
-              "Magento-Store-View-Code": "main_website_store",
+              "Magento-Store-Code": "main_website_store",
+              "Magento-Store-View-Code": "default",
               "Magento-Customer-Group": "356a192b7913b04c54574d18c28d46e6395428ab"
             },
             "schemaHeaders": {

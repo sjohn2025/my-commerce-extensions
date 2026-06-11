@@ -7,7 +7,7 @@
   },
   "servers": [
     {
-      "url": "https://<your-namespace>.adobeioruntime.net/api/v1/web/course-labs"
+      "url": "https://3967933-842cobaltbluepeafowl-stage.adobeioruntime.net/api/v1/web/course-labs"
     }
   ],
   "paths": {

@@ -1,4 +1,3 @@
-
 # The [pre-app-build] hooks are auto-generated. Do not remove or manually edit.
 hooks:
   pre-app-build: EXTENSION=extensibility/1 npx aio-commerce-lib-app hooks pre-app-build
@@ -32,7 +31,7 @@ runtimeManifest:
             memorySize: 256
           annotations:
             require-adobe-auth: false
-            final: true      
+            final: true
     # This package definition is auto-generated. Do not remove or manually edit.
     app-management:
       license: Apache-2.0
